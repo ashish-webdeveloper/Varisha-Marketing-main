@@ -1,0 +1,277 @@
+/* ===========================
+Universal Styling
+========================= */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+   
+}
+/* ===========================
+Navbar Styling
+========================= */
+.navbar-nav
+{
+    margin: 0 1.5rem;
+}
+.nav_color{
+    background-color: #D4F1F4;
+}
+.nav-item .nav-link {
+    font-size: 1.3rem;
+    color: black;
+}
+.navbar-brand{
+    padding: 0.7rem;
+    font-size: 1.9rem;
+    color: black;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+.nav_link ul li a:hover{
+    border-bottom: 1px solid black;
+}
+.title_name:hover
+{
+    background-image: linear-gradient(to right, #370505, #5d0020, #7d004d, #840093, #2e12eb);
+    color: white;
+}
+.navbar .navbar-collapse form .form-control
+{
+    border-radius: none !important;
+}
+.navbar form button{
+    border-top-left-radius: none !important;
+    border-bottom-left-radius: none !important;
+}
+.btn-outline-success {
+    color: #198754;
+    border-color: #d7dbd9 !important;
+    border-left: none !important;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    border-left: none !important;
+    user-select: none;
+    background-color: white;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    margin-left: -0.4rem !important;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+/* ===========================
+Slider Styling
+========================= */
+.slider_image{
+    height: 30rem;
+    width: 100%;
+}
+.slider_block
+{
+    background-color: rgba(255, 255, 255, 0.301)505;
+}
+.carousel-caption {
+    background-color: rgba(212, 211, 211, 0.842); 
+    padding: 20px; 
+  }
+
+
+/*============================
+  Wheel Section
+=============================*/
+.card{
+    border: none !important;
+}
+.card img{
+    height: 25rem;
+    padding: 2rem;
+}
+
+.form_area{
+    background-color: rgb(224, 222, 222);
+    border-radius: 1rem;
+    font-family: "Times New Roman", Times, serif;
+    
+   
+}
+/* About-section */
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.bg_image
+{
+    background-image: url('../images/form/form\ bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.heading h1{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+}
+.heading h1::after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #4caf50;
+}
+.heading p{
+    font-size: 18px;
+    margin: #666;
+    margin-bottom: 35px;
+}
+/* tools section */
+.img-to{
+background-image: url(../images/form/bg.jpg);
+}
+.bg-img{
+    background-image: url(..//images/banner/4.png);
+}
+/* V-belts */
+.velt-1{
+    display: flex;
+    align-items: center;
+    width:75vw;
+    max-width:650px;
+    padding: 50px 30px 50px 20px;
+    background: #ffffff;
+    border-radius: 24px;
+}
+.velt-1 img{
+    max-width: 280px;
+    width: 28vw;
+    height: 300px;
+    object-fit: cover;
+    margin-left: -60px;
+    margin-right: 30px;
+    border-radius: inherit;
+    box-shadow: 0 60px 40px rgb(0 0 0/8%);
+}
+.velt-1 h3{
+    color:rgb(0 0 0/90%);
+}
+.velt-1 p{
+    color:rgb(0 0 0/70%);
+}
+.velt-1 button{
+    border:0;
+    background: #5448de;
+    color:#f8f8f8;
+    font-family: inherit;
+    padding: 16px 26px;
+    font-size: 16px;
+    border-radius: 40px;
+}.velt-1 img{
+    width: 100%;
+    max-width: 1000px;
+}
+.wheel_container{
+    box-sizing: border-box;
+}
+.wheel_container img{
+    margin: 1.5rem auto;
+}
+.wheel_card{
+    width: 20rem;
+    border: 2px solid black !important;
+    margin: 2rem !important;
+}
+
+@media screen and (max-width: 760px) {
+    .velt-1{
+        margin: 2rem auto;
+    }
+    .velt-1 img
+    {
+        margin: 1rem auto;
+    }
+    .wheel_text{
+        padding: 0 !important;
+        font-size: 20px !important;
+    }
+    
+}
+
+@media screen and (max-width: 62rem) 
+{
+    card .wheel_card .card_body{
+        margin: 2rem 10rem ;
+    }
+}
+
+/*--------------
+Footer
+------------- */
+.footer{
+
+    padding-top: 2rem;
+}
+.row {
+     --bs-gutter-x: 0rem !important;
+}
+
+@media screen and (max-width: 760px) {
+    footer .row h5, p{
+        text-align: center;
+        margin: 0.5rem auto;
+    }
+    footer .row i,a{
+        justify-content: center;
+        text-align: center;
+    }
+    .slider_image{
+        height: 20rem;
+        width: 100%;
+    }
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #0c0c0c9c;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+}
+
+.form-label {
+    margin-bottom: 0rem;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    margin-top: 1rem;
+    background-color: rgb(238, 238, 238);
+    color: white;
+
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu :hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(161, 111, 111);
+}
+.form_area {
+    background-color: rgb(224 222 222 / 30%);
+    border-radius: 0rem;
+    font-family: "Times New Roman", Times, serif;
+}
